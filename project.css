@@ -1,0 +1,116 @@
+body {font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 1em;
+color:#000000;
+background-color:#a7a09a;
+margin:0;
+padding:0;
+width:1050px;}
+
+#pagewrapper {background:#A6D2F5;}
+
+#header, header {background:#dddddd;
+		padding:10px 10px;}
+
+#nav, nav {background:#FFFF80;
+	padding:15px 15px;
+	text-align: right;
+	border-top: 7px solid #C5D3C6;
+	border-bottom: 5px solid #897EA6;
+	font: 1em "Marker Felt", "Arial Black", sans-serif;}
+
+#sidebar {float:left;
+width:280px;
+height: 1510px;
+background:#000;
+padding:5px;
+color: #FFF;
+}
+
+#content, content {float:right;
+font-size: 1em;
+width:750px;
+height: 1510px;
+padding:3px;
+background:#868CC0 url(images/slidervortex2.jpg) no-repeat fixed top;} /* a wormhole */
+ 
+#footer, footer {clear:both;
+		background:#cccc99;
+		padding:5px 5px;
+		text-align: center;}
+		
+#nav ul, nav ul, footer ul, #footer ul {margin:0;
+		padding:0;
+		list-style:none;}
+
+#nav li, nav li, #footer li, footer li {display:inline;
+		margin:0;
+		padding:0;}
+
+h1 {margin:0;
+font: 2.5em "Marker Felt", Impact, "Arial Black", sans-serif;}
+
+h2 {margin:.5em 1em;}
+
+.comments {
+text-align: center;
+color:#060656;
+background: #7E7F7A;
+font: sans-serif;
+border: 5px solid #000;
+}
+
+#photo1 {
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 10px 0px 0px 20px;
+}
+#photo2 {
+    background-position: right;
+	padding: 0px 0px 0px 20px;
+  }
+  
+  
+.serviceslist {list-style-type: upper-roman;
+margin-bottom:120px;
+
+}
+.productspecs {list-style-type:square;
+margin-bottom:120px;}	
+
+.servicepics {float:right;
+	margin:10px;}
+.tablelabel   {color:#000000;
+                 font:12px Verdana, Arial, Helvetica, sans-serif;
+                 font-weight:bold;
+                 background:#a9f6fa;
+                 width:110px;}
+
+				 
+.inputfield    {color:#000000;
+padding: 10px;
+
+              }				 
+	
+#form1              {margin-bottom:80px;}
+	
+	
+	
+label {width:200px;
+display:inline-block;
+font: 12px Arial;
+font-weight:bold;}
+
+legend {padding: 10px;
+font: 14px Arial;
+font-weight:bold;}
+	
+fieldset {padding: 20px;
+margin-bottom:30px;
+float: left;
+padding:10px;
+border-radius:4px;
+}
+
+
+#footer p , footer p{margin:0}
+
