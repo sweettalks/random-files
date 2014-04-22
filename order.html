@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<!--
+   Author Name: Romona Cody
+   Assignment : order.html
+   Due Date   : 05/19/2013
+   Browser    : Firefox
+-->
+<head>
+  <meta charset="utf-8" />
+  <title>really vir2versal- Order Page</title>
+  <link href="project.css" rel="stylesheet" />
+</head>
+
+
+<body>
+  <div id="pagewrapper">
+  
+    <div id="header">
+      <h1><em>really vir2versal</em></h1>
+		
+ 	<div id="nav">
+	
+	<!-- Site navigation menu -->
+	<ul>
+          <li><a href="welcome.html"><img src="buttons/welcome.png"
+  alt="Welcome"  width="102" height="46" /></a></li>
+  
+  	<li><a href="about.html"><img src="buttons/aboutus.png"
+  alt="About Us"  width="102" height="46" /></a></li>
+  
+		
+		<li><a href="services.html"><img src="buttons/services.png"
+  alt="Services"  width="102" height="46" /></a></li>
+  
+	 <li><a href="order.html"><img src="buttons/order.png"
+  alt="Order"  width="102" height="46" /></a></li>
+  	
+  
+        <li><a href="contact.html"><img src="buttons/contactus.png"
+  alt="Contact Us"  width="102" height="46" /></a></li>
+  
+    </ul>
+
+	    
+    </div> <!-- end of navigation div -->
+ </div>  <!-- end of header -->
+	 
+	<div id ="sidebar">
+	<h2>Products and Accessories</h2>
+	 <ul>
+        <li><a href="services.html"> Travel Guides</a></li>
+        <li><a href="services.html"> Hotel Guides</a></li>
+       
+       	<li><a href="order.html">Order</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+		  <h2>What our clients say....</h2>
+		  <p id="photo1"><img src= "dinochick.jpg" 
+		alt="Jurassic Adventure" title="Jurassic Adventure Planet-Part of the All Grown-up series Universal package" width="200" height="120" />
+	  <p>  </p>
+	    
+	<aside>"I can't wait to bring home my new dino-plant!"</aside>
+	  <p></p>
+	 <p> </p>
+	 
+	     
+	 <p  id="photo2">    
+	 <img src= "thumbwars.bmp" 
+		alt="Thumb Planet" title="Thumb Planet-Part of the Family Fun series Universal package" width="200" height="200" /> </p> 
+	   <p></p>
+	<aside>"I have a new Thumb family!  I'm not sure how their visit to Earth will go though.."</aside>
+	 <p>   </p>
+	 </div>  <!-- end of sidebar -->  
+	
+    <div id="content">
+	<form action="http://ctec.clark.edu/~belgort/scripts/form_echo.php" method="post">
+
+<fieldset>            
+	
+<legend>Where should we ship your order?</legend> 
+	<p><label for="fullname">Your Full Name:</label> <input type="text" size="50" name="fullname" id="fullname" maxlength="50"><br>
+	
+	
+	<p><label for="street">Street:</label> <input type="text" size="50" name="street" maxlength="50" id="street"><br>
+	<p><label for="city">City/State/ZIP:</label> <input type="text" size="20" name="city" maxlength="20" id="city"> <input type="text" size="10" name="state" maxlength="10"> <input type="text" size="7" name="zip" maxlength="5"><br>
+	<p><label for="homephone">Home Phone:</label> <input type="text" size="15" name="homephone" maxlength="15" id="homephone"><br>
+	<p><label for="cellphone">Cell Phone:</label> <input type="text" size="15" name="cellhone" maxlength="15" id="cellphone"><br>
+	  </fieldset>
+		
+	  <fieldset>
+	  
+	  <legend>More about you</legend> 
+
+         <label>Gender:</label> 
+		 
+		 <input type="radio" name="gender" value="Male" id="gender1" checked> <label for="gender1">Male</label> 
+		 
+		 <input type="radio" name="gender" value="Female" id="gender2"> <label for="gender2">Female</label>
+		 
+		  
+		 <br>
+		 
+	 <p><label>Age Group</label>
+          
+          <select name="AgeGroup">
+             <option value="GRPSample">Select an age group</option>
+             <option value="GRP1619">16-19</option>
+             <option value="GRP2029">20-29</option>
+             <option value="GRP3039">30-39</option>
+             <option value="GRP4049">40-49</option>
+             <option value="GRP5059">50-59</option>
+             <option value="GRP6069">60-69</option>
+			 <option value="GRP7079">70-79</option>
+			 <option value="GRP8089">80-89</option>
+			 <option value="GRP9099">90-99</option>
+          </select>
+		  
+       </p>
+	   
+	</fieldset><br>
+	
+<fieldset>
+                    <legend>Select a Product</legend>
+					<p>
+                    <label for="xchngseries">Xchange Student Adventures</label>
+                    <select name="Xchange Student Adventures" id="xchngseries">
+                        <option value="--Select One--" selected>
+                            --Select an Adventure--
+                        </option>
+
+                        <option value="Day Trip">
+                            Day Trip
+                        </option>
+
+                        <option value="Lifetime Trip">
+                            Lifetime Trip
+                        </option>
+
+                        <option value="Travel Guides">
+                            Travel Guides
+                        </option>
+						
+						<option value="Hotel Guides">
+                            Hotel Guides
+                        </option>
+
+                    </select><br>
+                    <label for="qty_xchng">Quantity:</label> <input type="text" size="3" name="qty_xchng" maxlength="3" id="qty_xchng"><br>
+                    <br>
+					
+					
+				<label for="jurasseries">Jurassic Adventures</label>
+                    <select name="Jurassic Adventures" id="jurasseries">
+                        <option value="--Select One--" selected>
+                            --Select an Adventure--
+                        </option>
+
+                        <option value="Day Trip">
+                          3 Day Trip
+                        </option>
+
+                        <option value="Lifetime Trip">
+                            7 Day Trip
+                        </option>
+						
+						<option value="Travel Guides">
+                            Travel Guides
+                        </option>
+						
+						<option value="Hotel Guides">
+                            Hotel Guides
+                        </option>
+
+                    </select><br>
+                    <label for="qty_jur">Quantity:</label> <input type="text" size="3" name="qty_jur" maxlength="3" id="qty_jur"><br>
+                    <br>
+						
+					<label for="candyseries">Candyland Adventures</label>
+                    <select name="Candyland Adventures" id="candyseries">
+                        <option value="--Select One--" selected>
+                            --Select an Adventure--
+                        </option>
+						
+						 <option value="School Field Trip">
+                          School Field Trip
+                        </option>
+
+                        <option value="Day Trip">
+                          3 Day Trip
+                        </option>
+
+                        <option value="Lifetime Trip">
+                            7 Day Trip
+                        </option>
+						
+						<option value="Travel Guides">
+                            Travel Guides
+                        </option>
+						
+						<option value="Hotel Guides">
+                            Hotel Guides
+                        </option>
+
+                    </select><br>
+                    <label for="qty_can">Quantity:</label> <input type="text" size="3" name="qty_can" maxlength="3" id="qty_can"><br>
+                    <br>
+						
+					<label for="polliseries">PollexiThumb Adventures</label>
+                    <select name="PollexiThumb Adventures" id="polliseries">
+                        <option value="--Select One--" selected>
+                            --Select an Adventure--
+                        </option>
+
+                        <option value="Day Trip">
+                          3 Day Trip
+                        </option>
+
+                        <option value="Lifetime Trip">
+                            7 Day Trip
+                        </option>
+						
+						<option value="Travel Guides">
+                            Travel Guides
+                        </option>
+						
+						<option value="Hotel Guides">
+                            Hotel Guides
+                        </option>
+
+                    </select><br>
+                    <label for="qty_polli">Quantity:</label> <input type="text" size="3" name="qty_polli" maxlength="3" id="qty_polli"><br>
+                    <br>	
+					</fieldset><br>	
+			<fieldset>
+                    <legend>Products/Services of Interest</legend>	
+				 <select name=" --Select a Product--" id="selectprod">
+				 
+				 <option value=" --Select a Product--" selected>
+                            --Select a Product--
+                        </option>
+
+                        <option value="Day Trip">
+                            Day Trip
+                        </option>
+       
+                <option value="xchange">Xchange Student
+				
+				</option>
+				<option value="Hotel Guides">
+                            Hotel Guides
+                 </option>
+				 
+			    <option value="Lifetime Trip">
+                            7 Day Trip
+                 </option>
+						
+				<option value="Travel Guides">
+                            Travel Guides
+                 </option>
+						
+				<option value="Other">Other
+				
+				</option>
+            
+          </select>	
+		  
+</fieldset><br>	
+
+<fieldset> 
+<legend>We would Love to Hear from you--Do you have any Comments?</legend> 
+<textarea name="comments" rows="10" cols="60"></textarea>
+<br>
+<input type="submit">&nbsp;&nbsp;<input type="reset">
+   </fieldset>
+
+	 </form>
+    </div>  <!-- end of content -->
+  
+    <div id="footer">
+      <ul>
+<li><a href="welcome.html" title="Welcome page">Welcome</a></li>
+<li><a href="services.html" title="Services page ">Services</a></li>
+<li>Order</li>
+<li><a href="contact.html" title="Contact page ">Contact</a></li>
+<li><a href="about.html" title="About page ">About</a></li>
+<li><a href="http://www.copyright.gov/fls/fl102.html" title="About Copyright">About Copyrights </a></li>
+</ul>
+<a href="#pagewrapper">Return to Top</a><br /><br />
+<p id="copyright">&copy;2013 really vir2versal </p>
+
+    </div>  <!-- end of footer -->
+
+  </div>  <!-- end of pagewrapper -->
+
+
+	</body>
+</html>

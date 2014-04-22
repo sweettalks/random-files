@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<!--
+   Author Name: Romona Cody
+   Assignment : contact.html
+   Due Date   : 05/19/2013
+   Browser    : Firefox
+-->
+<head>
+  <meta charset="utf-8" />
+  <title>really vir2versal- Contact Page</title>
+  <link href="project.css" rel="stylesheet" />
+</head>
+
+
+<body>
+  <div id="pagewrapper">
+  
+    <header>
+      <h1><em>really vir2versal</em></h1>
+		
+ 	<nav>
+	
+	<!-- Site navigation menu -->
+	<ul>
+        <li><a href="welcome.html"><img src="buttons/welcome.png"
+  alt="Welcome"  width="102" height="46" /></a></li>
+  
+  	<li><a href="about.html"><img src="buttons/aboutus.png"
+  alt="About Us"  width="102" height="46" /></a></li>
+  
+		
+		<li><a href="services.html"><img src="buttons/services.png"
+  alt="Services"  width="102" height="46" /></a></li>
+  
+	 <li><a href="order.html"><img src="buttons/order.png"
+  alt="Order"  width="102" height="46" /></a></li>
+  	
+  
+        <li><a href="contact.html"><img src="buttons/contactus.png"
+  alt="Contact Us"  width="102" height="46" /></a></li>
+  
+    </ul>
+
+	    
+    </nav> <!-- end of navigation div -->
+ </header>  <!-- end of header -->
+	 
+	<div id ="sidebar">
+	<h2>Products and Accessories</h2>
+	 <ul>
+        <li><a href="services.html"> Travel Guides</a></li>
+        <li><a href="services.html"> Hotel Guides</a></li>
+       
+       	<li><a href="order.html">Order</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+      </ul>
+	  
+	  <aside>"I loved it!!  There was just no need for a divorce!"</aside>
+	  
+
+	<p id="photo2"><img src= "dinochick.jpg" 
+		alt="Jurassic Adventure" title="Jurassic Adventure Planet-Part of the All Grown-up series Universal package" width="200" height="120" />
+	  
+	  <p></p>
+	<aside>"The Slide was soooo smooth!  Like floating in warm water"</aside>
+	<p  id="photo3"><img src= "bluevortex.jpg" 
+		alt="The Slide Vortex" title="The Slide Vortex" width="200" height="149" /> </p>
+		 <p>   </p>
+		 <aside>"They're right!! Elvis and Leonardo da Vinci are still alive and well in the universes I visited.  I can't wait to be an Xchange Student."</aside>
+		  <p>   </p>
+	<p  id="photo4"><img src= "einstein.jpg" 
+		alt="Einstein Xchange Student" title="Einstein Xchange Student series  package" width="200" height="167" /> </p>
+
+						
+
+	 
+	 <p>   </p>
+	 </div>  <!-- end of sidebar -->  
+	
+    <div id="content">
+	
+	 <h1>Virtual Reality....Redefined</h1>
+	 
+
+ <form method="post" action="http://ctec.clark.edu/~belgort/formprocessing/processform.php">
+<fieldset>            
+	
+<legend>Your contact information</legend> 
+	<p><label for="fullname">Your Full Name:</label> <input type="text" size="50" name="fullname" id="fullname" maxlength="50"><br>
+	<p><label for="street">Street:</label> <input type="text" size="50" name="street" maxlength="50" id="street"><br>
+	
+	<p><label for="street2">Street2:</label> <input type="text" size="50" name="street2" maxlength="50" id="street2"><br>
+	
+	<p><label for="city">City/State/ZIP:</label> <input type="text" size="20" name="city" maxlength="20" id="city"> <input type="text" size="10" name="state" maxlength="10"> <input type="text" size="7" name="zip" maxlength="5"><br>
+	<p><label for="homephone">Home Phone:</label> <input type="text" size="15" name="homephone" maxlength="15" id="homephone"><br>
+	<p><label for="cellphone">Cell Phone:</label> <input type="text" size="15" name="cellhone" maxlength="15" id="cellphone"><br>
+	
+	  <p><label for="besttime">Best Time to call you:</label> <input type="text" size="15" name="besttime" maxlength="15" id="besttime"><br>
+ </fieldset>		
+	  <fieldset>
+	  
+	  <legend>More about you</legend> 
+
+         <label>Gender:</label> 
+		 
+		 <input type="radio" name="gender" value="Male" id="gender1" checked> <label for="gender1">Male</label> 
+		 
+		 <input type="radio" name="gender" value="Female" id="gender2"> <label for="gender2">Female</label>
+		 
+		  
+		 <br>
+		 
+	 <p><label>Age Group</label>
+          
+          <select name="AgeGroup">
+             <option value="GRPSample">Select an age group</option>
+             <option value="GRP1619">16-19</option>
+             <option value="GRP2029">20-29</option>
+             <option value="GRP3039">30-39</option>
+             <option value="GRP4049">40-49</option>
+             <option value="GRP5059">50-59</option>
+             <option value="GRP6069">60-69</option>
+			 <option value="GRP7079">70-79</option>
+			 <option value="GRP8089">80-89</option>
+			 <option value="GRP9099">90-99</option>
+			 <option value="GRP10009">100-109</option>
+          </select>
+		  
+       </p>
+	   
+	</fieldset><br>
+	
+	<fieldset>   
+	<legend>More about you</legend> 
+	<label>Email</label>
+	<input type="email" name="email" value="user@yahoo.com" />
+	   
+	<label>Date of Birth:</label><input type=date />
+	   
+	<label>Reason for Contacting us?</label>
+          
+          <select name="contactreason">
+		   <option value=" --Select a Product--" selected>
+                            --Select a Product--
+                        </option>
+             <option value="Problem with Travel">Problem with Travel</option>
+             <option value="Product/service question">Product/service question</option>
+             <option value="Suggestion(s)</">Suggestion(s)</option>
+             <option value="Other">Other</option>
+			  </select>
+     
+		</fieldset>
+		
+ <fieldset>
+		  
+	   <legend>List of publications that interest you...</legend>
+ <p class="inputfield">
+          <input type="checkbox" name="products[]" value="Jurassic Tips for Travel" />
+          Jurassic Tips for Travel
+          <input type="checkbox" name="products[]" value="Xchange Student Family Plan" />
+          Xchange Student Family Plan
+          <input type="checkbox" name="products[]" value="Universal Adventures" />
+           Universal Adventure
+          <input type="checkbox" name="products[]" value="Things an Alien might say: How to fit in" />
+          Alien Things to Say
+          <input type="checkbox" name="Other[]" value="OTHER" />
+          Other&nbsp;&nbsp;&nbsp;&nbsp;(Check all that apply)
+</p>
+          </fieldset><br>
+     
+<fieldset> 
+<legend>Do you have any Comments?</legend> 
+<textarea name="comments" rows="10" cols="60"></textarea>
+ 
+</fieldset>
+
+ <fieldset> 
+<legend>Other Product/Service interests?</legend>
+ <p class="inputfield">
+          <input type="checkbox" name="Other Products[]" value="Jurassic Adventure" />
+          Jurassic Adventure
+          <input type="checkbox" name="Other Products[]" value="Xchange Student" />
+          Xchange Student
+          <input type="checkbox" name="Other Products[]" value="Candyland Adventure" />
+           Candyland Adventure
+          <input type="checkbox" name="Other Products[]" value="PollexiThumb" />
+          PollexiThumb
+          <input type="checkbox" name="Other Products[]" value="OTHER" />
+          Other&nbsp;&nbsp;&nbsp;&nbsp;(Check all that apply)
+</p>
+<br>
+<p><input type="submit"/> <input type="reset"/>   </p>	
+</fieldset><br>	
+	  
+	
+	 </form>		
+		
+	</div><!-- end of content -->
+
+    <footer>
+      <ul>
+<li><a href="welcome.html" title="Welcome page">Welcome</a></li>
+<li><a href="services.html" title="Services page. ">Services</a></li>
+<li><a href="order.html" title="Order page. ">Order</a></li>
+<li>[ Contact Us ]</li>
+<li><a href="about.html" title="About page. ">About</a></li>
+<li><a href="http://www.copyright.gov/fls/fl102.html" title="About Copyright">About Copyrights </a></li>
+</ul>
+<a href="#pagewrapper">Return to Top</a><br /><br />
+<p id="copyright">&copy;2013 really vir2versal </p>
+
+    </footer>  <!-- end of footer -->
+
+  </div>  <!-- end of pagewrapper -->
+
+
+	</body>
+</html>
